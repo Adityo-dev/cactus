@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.header-section-data-container {
+  margin-top: 8%;
+}
+.header-section-data-container h1 {
+  font-size: 70px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header-section-data-container p {
+  font-size: 20px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  margin-top: 18px;
+}
+.header-section-data-container .plants-data {
+  color: #416d19;
+}
+.header-section-button-container {
+  margin-top: 40px;
+}
+.header-section-button-container {
+  align-items: center;
+}
+.header-section-button-container button {
+  border: none;
+  padding: 12px;
+  background-color: #416d19;
+  color: #ffff;
+  font-size: 1.2em;
+  font-family: "Fira Sans Condensed", sans-serif;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+.header-section-button-container button:hover {
+  background-color: #114232;
+  cursor: pointer;
+}
+.header-section-button-container a:hover {
+  color: #416d19;
+}
+
+/* ..................... */
+.section2-container {
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8%;
+}
+.section2-text-data-container h1 {
+  font-size: 4em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 12px;
+}
+.section2-text-data-container p {
+  font-size: 1.2em;
+  font-family: monospace;
+  margin-top: 12px;
+}
+
+.section2-img-card {
+  position: relative;
+  width: 220px;
+  height: 200px;
+  background-color: #416d19;
+  border: 2px solid tan;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6rem;
+  cursor: pointer;
+}
+
+.section2-img-card img {
+  position: absolute;
+  top: -5rem;
+  width: 220px;
+  left: 0;
+  transition: 0.5s;
+}
+.section2-img-card:hover img {
+  transform: translateY(-0.9rem);
+}
+#section2-img-card-2 {
+  margin-left: 100%;
+}
+.section2-img-card h3 {
+  font-family: monospace;
+  margin-top: 8rem;
+  text-align: center;
+}
+.section2-img-card:nth-child(odd) {
+  rotate: -5deg;
+}
+.section2-img-card:nth-child(even) {
+  justify-self: end;
+  rotate: 5deg;
+}
+
+/* ............................... */
+.section3-container {
+  margin-top: 12%;
+  display: flex;
+  flex-direction: column;
+}
+.section3-container-info {
+  font-size: 3rem;
+  text-align: center;
+  font-family: monospace;
+  margin-bottom: 5%;
+}
+.section3-all-card-all-data-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: monospace;
+  margin: 0 auto;
+}
+
+.section3-card-data-container {
+  position: relative;
+  width: 300px;
+  height: 280px;
+  background-color: #416d19;
+  border: 2px solid tan;
+  border-radius: 20px;
+  margin-left: 3rem;
+  margin-top: 7rem;
+  cursor: pointer;
+}
+.section3-card-data-container .card-dada-info {
+  margin-top: 11rem;
+  text-align: center;
+  font-size: 20px;
+}
+
+.section3-card-data-container .card-second-data-info {
+  display: flex;
+  gap: 5rem;
+  margin-top: 2rem;
+  justify-content: center;
+  font-size: 1.2em;
+  align-items: center;
+}
+.section3-card-data-container .card-second-data-info p i {
+  color: white;
+  background-color: black;
+  padding: 40%;
+  border-radius: 100%;
+  transition: 0.6s;
+}
+.section3-card-data-container .card-second-data-info p i:hover {
+  color: black;
+  background-color: white;
+}
+
+.section3-card-data-container img {
+  width: 250px;
+  position: absolute;
+  top: -5rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: 0.6s;
+}
+.section3-card-data-container:hover img {
+  transform: translateY(-2rem);
+}
+
+/* ..................... */
+.section4-container {
+  margin-top: 12%;
+}
+.section4-container h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: monospace;
+}
+.section4-data-info-container {
+  margin-top: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.section4-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 20px;
+  color: #b8b8b8;
+}
+.section4-info-container p i {
+  color: #416d19;
+}
+.section4-info-container .span-gap {
+  margin-left: 8%;
+}
+
+/* .............................. */
+.section5-container {
+  margin-top: 12%;
+}
+.section5-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: monospace;
+}
+.section5-all-data-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  margin-top: 3%;
+}
+.section5-all-data-container .section5-data-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.section5-all-data-container .section5-data-info h2 {
+  font-size: 1.8rem;
+  font-family: monospace;
+}
+.section5-data-info .section5-data-info-text {
+  margin-top: 1.5rem;
+}
+.section5-data-info #contact-icon a {
+  font-size: 1.5rem;
+  color: #5fad16;
+}
+.section5-data-info p {
+  font-size: 1.5rem;
+  color: #b8b8b8;
+}
+.section5-data-info {
+  margin-top: 8rem;
+}
+
+/* ...................... */
+footer {
+  margin-top: 12%;
+  background-color: #050a01;
+  padding: 5rem;
+}
+
+footer .footer-data-info-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+}
+footer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+footer .footer-contact-icon {
+  display: flex;
+}
+footer .footer-data-info-container a {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  color: #b8b8b8;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+footer .footer-data-info-container a:hover {
+  color: #5fad16;
+}
